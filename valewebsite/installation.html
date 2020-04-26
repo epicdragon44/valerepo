@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="index.html" accesskey="1" title="">Return Home</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="welcome">
+	<div class="container">
+		<div class="title">
+            <h2>First, get the ISO image <a href="https://mega.nz/folder/k3YzDC7R#Wmd7WC9fHKC_c0ImE6B82Q">here</a>.</h2>
+            <p>(It's a compressed file that contains the entire operating system inside it)</p>
+		</div>
+	</div>
+</div>
+<div id="wrapper">
+	<div class="blackcontainer">
+		<center>
+			<h1>Installation Steps</h1><br>
+
+			<div>
+				<h3>1. Burn the ISO to a USB</h3><br>
+				<p style="text-align: justify; padding-left: 10em; padding-right: 10em;">
+					You'll need balenaEtcher to write the ISO image. Download it <a href="https://www.balena.io/etcher/">here</a>.
+					<br>
+					Next, insert a USB with at least 4 gigabytes of storage into your computer. Launch balenaEtcher, select the ISO image, and write it to your USB.
+					<br>
+                </p>
+				<br>
+			</div>
+
+			<div>
+				<h3>2. Boot into the Operating System</h3><br>
+				<p style="text-align: justify; padding-left: 10em; padding-right: 10em;">
+					Restart your computer. As it boots up again, hit your computer's BIOS key to enter the BIOS. This key varies by computer, but normally it's either Esc or one of the function keys.
+					<br>
+					Once you're in the BIOS, choose to boot from the USB.
+				</p>
+				<br>
+			</div>
+
+			<div>
+				<h3>3. Install Vale OS</h3><br>
+				<p style="text-align: justify; padding-left: 10em; padding-right: 10em;">
+					Soon, you'll be greeted with the default Vale OS desktop. You can play around with the desktop live, but no changes you make will be saved to your computer. 
+                    <br>
+                    Once you're ready to install, double click the install icon on the desktop, and you'll be greeted with the installation wizard. Follow the steps carefully.
+                </p>
+                <img width="1000em" src="images/installation/2020-04-18-182211_3840x1080_scrot.png">
+                <p>Select a language, and then proceed.</p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182311_3840x1080_scrot.png">
+                <p>Select your keyboard. For most people, the defaults will be OK here.</p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182324_3840x1080_scrot.png">
+                <p>On this screen, it is recommended to select the second checkbox before proceeding, unless you are a die-hard open-source fanatic. For legal reasons, we cannot bundle this as default, but it will provide you with access to proprietary drivers and other essential software.</p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182553_3840x1080_scrot.png">
+                <p>This screen is important. Consider your options carefully. We're assuming you are migrating from Windows or Mac OSX. If that is the only operating system on your computer (ie. if you did not install any operating systems yourself prior to this guide), selecting the topmost option is recommended, because you will install Vale OS alongside Windows/MacOSX, and you'll be able to choose which to boot when your computer starts up. On the other hand, if you want to only run Vale OS, you can select the second option, but keep in mind that will wipe your disk completely. Finally, if you're feeling skilled, or if you have multiple operating systems already installed, you can proceed with the bottom option.</p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182754_3840x1080_scrot.png">
+                <p>This screen will only appear if you selected the bottom option previously. Your disk layout is likely to look different from the example shown here, but the basic gist of it is that your hard drive is divided into partitions. In order for Vale OS to install correctly, it is recommended to give it at least two partitions: the root partition, mounted at /, and the swap partition. If you're not familiar with what to do, we recommend this guide from HowToGeek <a href="https://www.howtogeek.com/howto/35676/how-to-choose-a-partition-scheme-for-your-linux-pc/">here.</a></p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182825_3840x1080_scrot.png">
+                <p>Select your location and proceed.</p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182844_3840x1080_scrot.png">
+                <p>Enter your personal information. Do not forget your password! It is not easily recoverable.</p><br>
+                <img width="1000em" src="images/installation/2020-04-18-182850_3840x1080_scrot.png">
+                <p>You're done! Wait for installation to complete, and then reboot the computer as instructed.</p><br>
+				<br>
+			</div>
+		</center>
+	</div>
+</div>
+
+<div id="copyright" class="container">
+	<p>&copy; Vale OS. All rights reserved.</p>
+</div>
+</body>
+</html>
